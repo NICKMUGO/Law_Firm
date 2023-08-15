@@ -16,10 +16,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
       fetch('db.json')
         .then(res => res.json())
         .then(data => {
-          console.log(data);
-          console.log(data.beers[0]['Feedback'])
-          let feedBack = data;
-          document.getElementById('feedback').innerHTML = feedBack.Feedback;
+          // console.log(data);
+          let person = data.beers
+          let feedbacks = []
+          for (const p of person) {
+            feedbacks.push(p.Feedback);
+          }
+          console.log(feedbacks)
+          document.getElementById('feedback').innerHTML = feedbacks;
         });
     }
   getFeedBack();
@@ -28,7 +32,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById('btnf').addEventListener("click",(event)=>{
       event.preventDefault()
       let pcf = document.getElementById("feedback")
-      let feedBack2 = document.getElementById("description");
+      let feedBack2 = document.getElementById("feedbackform");
       let br = document.createElement('br');
       let itemf = document.createElement('li');
       itemf.innerText = feedBack2.value;
@@ -36,4 +40,3 @@ document.addEventListener("DOMContentLoaded", (event) => {
       pcf.appendChild(itemf);
       console.log(itemf.innerText);
     })})
-          
