@@ -10,9 +10,8 @@
           "Achieved masters in Cardiff University wales in International studies",
           "Work experience of over 5 years."
         ],
-        "Feeback":[
+        "Feedback":[
           "Thoita forgot to add a meeting"
-  
         ]  
       },
       {
@@ -25,7 +24,10 @@
           "Work experience of 40+ years",
           "Member of the law society of Kenya",
           "Member of the African Bar"
-        ]
+        ],
+        "Feedback":[
+          "Thoita forgot to add a meeting"
+        ]  
       },
       {
         "id": 3,
@@ -36,7 +38,7 @@
           "Graduated from the university of Nairobi with second class Honours",
           "3 years of experience practicing law"
         ],
-        "Feeback":[
+        "Feedback":[
           "Sorry I missed the court ruling"
   
         ]  
@@ -51,7 +53,7 @@
           "specialized in communication in IT"
 
         ],
-        "Feeback":[
+        "Feedback":[
           "Kamau called the office"
   
         ] 
