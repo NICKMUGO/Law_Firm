@@ -9,14 +9,18 @@
           "Graduated from University Of Nairobi with second class honors",
           "Achieved masters in Cardiff University wales in International studies",
           "Work experience of over 5 years."
-        ]
+        ],
+        "Feeback":[
+          "Thoita forgot to add a meeting"
+  
+        ]  
       },
       {
         "id": 2,
         "name": "C.N.Kihara",
         "description": "Founder and CEO of C.N.Kihara and company advocates.Advocate and commissioner of oaths.",
         "image_url": "https://media.glamourmagazine.co.uk/photos/624c1cd94eb160924f37a3b9/16:9/w_2560%2Cc_limit/PASSPORT%2520PHOTO%2520TREND%2520050422%2520georgia.barratt_SF.jpg",
-        "reviews": [
+        "Education": [
           "Graduated from University Of Nairobi with upper second class honors",
           "Work experience of 40+ years",
           "Member of the law society of Kenya",
@@ -28,21 +32,29 @@
         "name": "Bernice",
         "description": "Advocate and commisioner of oaths.",
         "image_url": "https://images.punkapi.com/v2/5.png",
-        "reviews": [
+        "Education": [
           "Graduated from the university of Nairobi with second class Honours",
           "3 years of experience practicing law"
-        ]
+        ],
+        "Feeback":[
+          "Sorry I missed the court ruling"
+  
+        ]  
       },
       {
         "id": 4,
         "name": "Bornface Maina",
         "description": "Legal Assistant and communication officer",
         "image_url": "https://mod.go.ke/wp-content/uploads/2022/05/passport-photo.jpg",
-        "reviews": [
+        "Education": [
           "Gaduated with degree in bussiness management",
           "specialized in communication in IT"
 
-        ]
+        ],
+        "Feeback":[
+          "Kamau called the office"
+  
+        ] 
       }
     ]
   }
